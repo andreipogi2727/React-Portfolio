@@ -1,6 +1,8 @@
 import React from "react";
 import "./home.css";
 import Andrei from "../../assets/andrei.jpg";
+import Github from "../../assets/github.png";
+import Linkedin from "../../assets/linkedin-logo.png";
 
 const Home = () => {
   return (
@@ -16,10 +18,22 @@ const Home = () => {
               hopefully land a job hehe
               asdasdasdasssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
             </p>
+            <div className="icons">
+              <a href="https://github.com/andreipogi2727">
+                <img src={Github}></img>
+              </a>
+              <a href="https://github.com/andreipogi2727">
+                <img src={Linkedin}></img>
+              </a>
+              <a href="https://github.com/andreipogi2727">
+                <img src={Github}></img>
+              </a>
+              <a href="https://github.com/andreipogi2727">
+                <img src={Github}></img>
+              </a>
+            </div>
           </div>
-          <div className="icons">
-            <a href="https://github.com/andreipogi2727"></a>
-          </div>
+
           <div className="rightside">
             <img className="picture" src={Andrei}></img>
           </div>
