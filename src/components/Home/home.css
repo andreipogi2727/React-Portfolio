@@ -1,5 +1,5 @@
 .home{
-    margin-top: 100px;
+    margin-top: 50px;
      display: flex;
     align-items: center;
     gap: 60px;
@@ -61,5 +61,42 @@ section{
    
     transform: scale(1.3) rotate(30deg) translateY(-5px);
     
-
 }
+.text-animation::before {
+    position: relative;
+    content: "It's Andrei";
+    animation: words 10s infinite;
+}
+
+
+@keyframes words {
+    50% {
+        content: "It's Andrei";
+        color: aqua;
+    }
+    50%, 100% {
+        content: "Welcome!";
+        color: aqua;
+        
+    }
+}
+/* Typing animation
+
+@keyframes cursor {
+    to {
+        border-left: 2px solid red;
+    }
+}
+
+
+
+@keyframes typing {
+    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95% {
+        width: 0;
+    }
+    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+        width: calc(100% + 8px);
+    }
+}
+*/
+
