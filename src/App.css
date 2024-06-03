@@ -1,0 +1,13 @@
+body {
+  background-color: rgba(12, 12, 12, 0.992);
+  color: white;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family:'Times New Roman', Times, serif;
+  scroll-behavior: smooth; /* Enables smooth scrolling for anchor links */
+
+}
+section{
+  min-height: 100vh;
+}
