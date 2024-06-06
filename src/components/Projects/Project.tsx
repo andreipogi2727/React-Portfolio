@@ -1,7 +1,8 @@
 import React from "react";
 import "./Project.css";
 import ProjectBox from "./ProjectBox";
-import reactVideo from "../../assets/React-Admin.mp4";
+import reactVideo from "../../assets/Videos/React-Admin.mp4";
+import djangoVideo from "../../assets/Videos/Django_Video.mp4";
 
 const Project = () => {
   return (
@@ -24,10 +25,18 @@ const Project = () => {
               components.
             </p>
           </div>
-          <ProjectBox src={reactVideo} name="React Admin Dashboard" />
+          <ProjectBox
+            src={reactVideo}
+            name="React Admin Dashboard"
+            repo="https://github.com/andreipogi2727/ReactAdmin"
+          />
         </div>
         <div className="project-1">
-          <ProjectBox src={reactVideo} name="React Admin Dashboard" />
+          <ProjectBox
+            src={djangoVideo}
+            name="Django Blog"
+            repo="https://github.com/andreipogi2727/Django_Posts"
+          />
           <div className="project-1-content">
             <h2>babsdfsdfsd</h2>
             <p>
@@ -58,7 +67,11 @@ const Project = () => {
               components.
             </p>
           </div>
-          <ProjectBox src={reactVideo} name="React Admin Dashboard" />
+          <ProjectBox
+            src={reactVideo}
+            name="Api Journal"
+            repo="https://github.com/andreipogi2727/API-Journal"
+          />
         </div>
       </section>
     </div>

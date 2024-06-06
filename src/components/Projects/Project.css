@@ -22,6 +22,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin: 10px;
+    box-shadow: 0 0 25px aqua;
   }
   
   .overlay-parent {
@@ -79,4 +80,32 @@
     align-items: center;
     justify-content: center;
   }
-  
+  .click-github-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 10px;
+    background-color:rgb(6, 139, 139);
+    padding: 2px;
+    box-shadow: 0 0 15px black;
+  }
+  .click-github-container span{
+    color: black;
+    font-size: 1rem;
+
+  }
+  .click-github-container img{
+    color: white;
+    
+  }
+  .click-github{
+    width: 35px;
+  }
+  .click-github-container:hover{
+    cursor: pointer;
+    background-color: aqua;
+  }
+  a{
+    text-decoration: none;
+  }
