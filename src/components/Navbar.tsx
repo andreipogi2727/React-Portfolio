@@ -14,7 +14,7 @@ const Navbar = () => {
             About
           </Link>
           <Link
-            to="services"
+            to="projects"
             className="projects-link"
             smooth={true}
             duration={500}

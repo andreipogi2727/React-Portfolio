@@ -15,10 +15,8 @@ const Home = () => {
             </h1>
             <h2>I'm a Software Engineering Student</h2>
             <p>
-              I am a passionate Developer trying to find a Co-op placement at
-              the momment. My future plans are to improve my skills and
-              hopefully land a job hehe
-              asdasdasdasssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+              I am a passionate Software Engineering student just finished my
+              2nd year.
             </p>
             <div className="icons">
               <a href="https://github.com/andreipogi2727">

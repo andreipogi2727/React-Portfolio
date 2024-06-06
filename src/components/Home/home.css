@@ -54,9 +54,10 @@ section{
     box-shadow: 0 0 10px aqua;
     border-radius: 50%;
     border: 2px solid white;
-    
+    object-fit: cover;
 
 }
+
 .icons img:hover{
    
     transform: scale(1.3) rotate(30deg) translateY(-5px);
@@ -70,11 +71,11 @@ section{
 
 
 @keyframes words {
-    50% {
+    0%,50% {
         content: "It's Andrei";
         color: aqua;
     }
-    50%, 100% {
+    70%, 100% {
         content: "Welcome!";
         color: aqua;
         
