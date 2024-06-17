@@ -10,3 +10,18 @@ body {
 section{
   
 }
+.mail-parent{
+  position: relative;
+}
+.mail{
+  filter: sepia(100%);
+  color: white;
+  object-fit: cover;
+  padding: 0;
+  margin: 0;
+  width: 100px;
+}
+.mail-color{
+  position: absolute;
+  background-color: white;
+}

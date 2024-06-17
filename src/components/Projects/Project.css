@@ -1,12 +1,13 @@
 .project {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .project {
+  position: relative;
     text-align: center;
   }
+  .project-1-content{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
   h1{
     text-align: center;
   }
@@ -31,7 +32,7 @@
   }
   
   video {
-    width: 600px;
+    width: 500px;
     height: auto;
     border-radius: 8px;
   }
@@ -76,9 +77,11 @@
 
   .project-1{
     display: flex;
-    margin: 0;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 100px;
+    margin-top: 70px;
+
   }
   .click-github-container{
     display: flex;

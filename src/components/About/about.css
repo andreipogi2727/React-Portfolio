@@ -16,5 +16,55 @@ h1{
    
     
 }
-  
- 
+.skills-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.box {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items:first baseline;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.symbol {
+  column-gap: 4rem;
+  color: #4CAF50; /* Green color for the symbol */
+}
+
+.label {
+  font-size: 14px;
+  color: #777;
+  margin-left: 24px; /* Aligning the label with the text */
+}
