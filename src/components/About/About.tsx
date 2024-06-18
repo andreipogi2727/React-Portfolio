@@ -9,14 +9,28 @@ const About = () => {
 
   return (
     <div>
-      <section id="about">
+      <section className="about" id="about">
         <h1>About Me</h1>
         <p>
-          Hello I am Andrei I am a student at Conestoga College. Just finishing
-          2nd year I've learned different tecniques, front-end and back-end
-          languages, computer security, and many more.
+          As I conclude my second year at Conestoga College, I am filled with a
+          profound sense of accomplishment and excitement for the future. My
+          journey in the Software Engineering Technology program has been both
+          challenging and rewarding, providing me with a solid foundation in web
+          development, programming, and system design. Over the past two years,
+          I have honed my skills in various technologies such as JavaScript,
+          Python, React, Node.js, C, C++, C#, and MySQL, and have successfully
+          applied these skills in numerous academic projects. My coursework has
+          also covered crucial topics like object-oriented programming, agile
+          development, computer security, and data structures, equipping me with
+          a comprehensive understanding of the software development lifecycle.
+          Additionally, I have gained some experience in Android Studio and ARM
+          assembly, further broadening my technical expertise. This diverse
+          skill set has not only enhanced my technical abilities but also
+          nurtured my passion for solving complex problems and creating
+          user-friendly solutions. As I look ahead to my final year, I am eager
+          to further expand my knowledge, engage in more collaborative projects,
+          and continue to grow both personally and professionally.
         </p>
-        <h3>asdsadsa</h3>
         <h2>Technical Skills</h2>
         <div className="skills-container">
           <div className="box">
@@ -104,15 +118,15 @@ const About = () => {
               </div>
               <div className="column">
                 <div className="item">
-                  <div className="symbol">✔</div> HTML
+                  <div className="symbol">✔</div> C#
                   <div className="label">Intermediate</div>
                 </div>
                 <div className="item">
-                  <div className="symbol">✔</div> Bootstrap
-                  <div className="label">Intermediate</div>
+                  <div className="symbol">✔</div> .Net
+                  <div className="label">Basic</div>
                 </div>
                 <div className="item">
-                  <span className="symbol">✔</span> React
+                  <span className="symbol">✔</span> MySql
                   <div className="label">Intermediate</div>
                 </div>
               </div>

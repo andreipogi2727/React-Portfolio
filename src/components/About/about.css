@@ -1,3 +1,12 @@
+
+.about p{
+  font-family:'Times New Roman', Times, serif;
+  font-size: large;
+  margin-bottom: 20px;
+}
+.about h2{
+  margin-bottom: 20px;
+}
 h1{
     color: aqua;
 }
@@ -12,10 +21,7 @@ h1{
     height: 100%;
     display: block;
   }
-  h3{
-   
-    
-}
+  
 .skills-container{
   display: flex;
   align-items: center;

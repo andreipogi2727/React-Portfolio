@@ -1,0 +1,23 @@
+.contact-body{
+    background-color: rgb(69, 66, 66);
+}
+.phone{
+    width: 100px;
+}
+.mail-parent{
+    display: flex;
+    justify-content:first baseline;
+    align-items: center;
+    gap: 40px;
+}
+.mail-parent p{
+    font-size: 40px;
+}
+.phone-parent{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.phone-parent p{
+    font-size: 40px;
+}
