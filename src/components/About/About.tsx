@@ -1,12 +1,6 @@
-import React from "react";
 import "./about.css";
-import reactVideo from "../../assets/react-admin.mp4";
 
 const About = () => {
-  const handleClick = () => {
-    window.location.href = "https://github.com/your-repo";
-  };
-
   return (
     <div>
       <section className="about" id="about">

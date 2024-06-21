@@ -7,7 +7,6 @@ import Project from "./components/Projects/Project.tsx";
 import Contact from "./components/Contact/Contact.tsx";
 
 function App() {
-  const [count, setCount] = useState(0);
   const [screenSize, setScreenSize] = useState({
     width: window.innerWidth,
     height: window.innerHeight,
@@ -25,7 +24,9 @@ function App() {
       });
 
       // Log the screen sizes
-      console.log(`Width: ${newWidth}px, Height: ${newHeight}px`);
+      console.log(
+        `Width: ${newWidth}px, Height: ${newHeight}px Screen Size: ${screenSize}`
+      );
     };
 
     // Add event listener for resize

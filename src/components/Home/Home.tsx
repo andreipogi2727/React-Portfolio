@@ -1,4 +1,3 @@
-import React from "react";
 import "./home.css";
 import Andrei from "../../assets/andrei.jpg";
 import Github from "../../assets/github.png";

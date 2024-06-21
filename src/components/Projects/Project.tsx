@@ -1,4 +1,3 @@
-import React from "react";
 import "./Project.css";
 import ProjectBox from "./ProjectBox";
 import reactVideo from "../../assets/Videos/React-Admin.mp4";
