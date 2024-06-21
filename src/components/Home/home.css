@@ -39,7 +39,7 @@ section{
     display: flex;
     flex-direction: column;
     align-items: baseline;
-    text-align: left;
+    text-align: center;
     gap: 5pxx;
    
 }
@@ -47,6 +47,7 @@ section{
     display: flex;
     gap: 10px;
     margin-top: 20px;
+    
 
 
 }
@@ -90,6 +91,9 @@ section{
       flex-direction: column;
      gap: 30px;
     }
+    .leftside{
+        align-items: center;
+    }
     
   }
 /* Typing animation
@@ -111,5 +115,8 @@ section{
     }
 }
 */
-
+p{
+    font-size: large;
+    text-align: center;
+}
   

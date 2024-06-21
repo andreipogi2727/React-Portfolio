@@ -147,17 +147,15 @@ const Project = () => {
                 <span className="technologies">CSS</span>
               </div>
               <p>
-                Welcome to my personal portfolio! I've recently completed a
-                dynamic and visually appealing website using React, TypeScript,
-                and CSS. This project helped me to further enhance my skills in
-                frontend development, allowing me to create a seamless user
-                interface with easy navigation and interaction. Leveraging
-                React's component-based architecture, I designed an intuitive
-                layout that ensures a professional and modern user experience.
-                TypeScript adds an extra layer of type safety and code
-                readability, making the application robust and maintainable. The
-                responsive design, crafted with CSS, ensures accessibility
-                across various devices and screen sizes.
+                Welcome to my personal portfolio! This project helped me to
+                further enhance my skills in frontend development, allowing me
+                to create a seamless user interface with easy navigation and
+                interaction. Leveraging React's component-based architecture, I
+                designed an intuitive layout that ensures a professional and
+                modern user experience. TypeScript adds an extra layer of type
+                safety and code readability, making the application robust and
+                maintainable. The responsive design, crafted with CSS, ensures
+                accessibility across various devices and screen sizes.
               </p>
             </div>
           </div>
