@@ -17,7 +17,6 @@ const Contact = () => {
           <p>6479371904</p>
         </div>
       </section>
-      <p>@Andrei 2024</p>
     </div>
   );
 };

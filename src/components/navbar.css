@@ -35,17 +35,19 @@
 }
 
 .links:hover{
+    transition: ease-in-out .5s;
    cursor: pointer;
-   
-
 }
 .about-link:hover{
+    transition: ease-in-out .5s;
     color: aqua;
   
 }
 .projects-link:hover{
+    transition: ease-in-out .5s;
     color: aqua;
 }
 .contact-link:hover{
+    transition: ease-in-out .5s;
     color: aqua;
 }

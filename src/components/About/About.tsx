@@ -67,33 +67,33 @@ const About = () => {
             </div>
           </div>
           <div className="box">
-            <h2 className="title">Backend Developer</h2>
+            <h2 className="title">Other</h2>
             <div className="content">
               <div className="column">
                 <div className="item">
-                  <span className="symbol">✔</span> C/C++
+                  <span className="symbol">✔</span> Linux
                   <div className="label">Intermediate</div>
                 </div>
                 <div className="item">
-                  <span className="symbol">✔</span> NodeJs
+                  <span className="symbol">✔</span> Android
                   <div className="label">Basic</div>
                 </div>
                 <div className="item">
-                  <span className="symbol">✔</span> Python
+                  <span className="symbol">✔</span> Security
                   <div className="label">Intermediate</div>
                 </div>
               </div>
               <div className="column">
                 <div className="item">
-                  <div className="symbol">✔</div> HTML
+                  <div className="symbol">✔</div>Python
                   <div className="label">Intermediate</div>
                 </div>
                 <div className="item">
-                  <div className="symbol">✔</div> Bootstrap
-                  <div className="label">Intermediate</div>
+                  <div className="symbol">✔</div> ARM
+                  <div className="label">Basic</div>
                 </div>
                 <div className="item">
-                  <span className="symbol">✔</span> React
+                  <span className="symbol">✔</span> MongoDB
                   <div className="label">Intermediate</div>
                 </div>
               </div>
@@ -109,10 +109,10 @@ const About = () => {
                 </div>
                 <div className="item">
                   <span className="symbol">✔</span> NodeJs
-                  <div className="label">Basic</div>
+                  <div className="label">Novice</div>
                 </div>
                 <div className="item">
-                  <span className="symbol">✔</span> Python
+                  <span className="symbol">✔</span> Php
                   <div className="label">Intermediate</div>
                 </div>
               </div>

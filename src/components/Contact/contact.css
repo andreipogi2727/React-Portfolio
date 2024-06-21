@@ -1,5 +1,7 @@
 .contact-body{
     background-color: rgb(69, 66, 66);
+    display: flex;
+    justify-content: center;
 }
 .phone{
     width: 100px;
@@ -21,3 +23,19 @@
 .phone-parent p{
     font-size: 40px;
 }
+@media screen and (max-width: 750px){
+    .phone{
+        width: 55px;
+    }
+    .mail{
+        width: 55px;
+    }
+    .phone-parent p{
+        font-size: 20px;
+    }
+    .mail-parent p{
+        font-size: 20px;
+    }
+    
+    
+  }
